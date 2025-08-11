@@ -56,12 +56,21 @@ p {
   gap: 8px;
 }
 .overlay img {
-  border: none;
+  border: 1px solid white;
   width: 250px;
   height: 80px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
+.pop:hover {
+  transform: scale(1.2);
+}
+.pop {
+  transition: transform 0.3s ease-in-out;
+}
+
 .btn {
   margin-top: 50px;
   background: transparent;
