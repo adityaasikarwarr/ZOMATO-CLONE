@@ -91,3 +91,19 @@ p {
     transform: translateY(-10px);
   }
 }
+
+.main_image_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background_img_white {
+  position: relative;
+  width: 100%;
+  height: 780px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.main_text h1 {
+  color: rgb(239, 83, 83);
+}
